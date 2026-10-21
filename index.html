@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a0e">
+  <meta name="description" content="NAMIAMA — a personal systemic calibration matrix with local Soundlab and evidence vaults.">
+  <title>NAMIAMA // NYNAXOS TERMINAL</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to terminal</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <div class="site-shell">
+    <header class="masthead">
+      <div class="masthead-meta">
+        <span class="eyebrow"><span class="signal-dot" aria-hidden="true"></span> PERSONAL ARCHIVE <span class="meta-divider">/</span> NODE 09</span>
+        <span class="local-only"><span class="lock-glyph" aria-hidden="true">⌑</span> LOCAL ONLY</span>
+      </div>
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div>
+          <h1 class="brand-name">NAMIAMA</h1>
+          <p class="brand-subtitle">Systemic Calibration Matrix <span>v3.3</span></p>
+        </div>
+        <div class="header-coordinates" aria-hidden="true"><span>9·AX</span><span>08—08</span></div>
+      </div>
+      <div class="header-rule"><span></span></div>
+    </header>
+
+    <main id="main-content">
+      <section class="identity-panel" aria-labelledby="identity-heading">
+        <div class="panel-index">N—01 <span>IDENTITY RECORD</span></div>
+        <div class="identity-content">
+          <div class="identity-heading-row">
+            <h2 id="identity-heading">Sovereign identity</h2>
+            <span class="record-seal">RECORD // ACTIVE</span>
+          </div>
+          <div class="identity-grid">
+          <p><span class="identity-label label-gold">+ AMUN-NARA ENTITY / SOVEREIGN</span><span class="identity-value">Nicol&aelig;nne <span class="identity-note">(Sovereign Refusal of Surnames)</span></span></p>
+          <p><span class="identity-label label-fuchsia">+ CORE REN TITLES</span><span class="identity-value">Nelokhi Merma'at Hekh-Kenz <span class="title-divider">//</span> Nekhi Betwein</span></p>
+          <p class="identity-key"><span class="identity-label label-cyan">+ DEIFICATION KEY</span><span class="identity-value">11/808/31-13/69-96/7/5/3/4/23</span></p>
+          </div>
+          <span class="watermark-code" aria-hidden="true">9-AXIS CODES ACTIVE</span>
+        </div>
+      </section>
+
+      <section class="actuator-section" aria-labelledby="actuator-heading">
+        <div class="section-heading-row">
+          <div>
+            <div class="section-kicker">01 <span>/</span> CORE SYSTEM</div>
+            <h2 id="actuator-heading" class="section-title">Core decryption actuators</h2>
+          </div>
+          <span class="section-aside">SELECT AN ACTUATOR <span aria-hidden="true">↘</span></span>
+        </div>
+
+        <div class="actuator-layout">
+          <div class="actuator-list" role="group" aria-label="Core decryption actuators">
+            <button class="actuator-button" type="button" data-action="phonetics"><span class="button-number">01</span><span class="button-label">View Phonetic Blueprints</span><span class="button-arrow" aria-hidden="true">&nearr;</span></button>
+            <button class="actuator-button" type="button" data-action="gematria"><span class="button-number">02</span><span class="button-label">Run Sovereign Gematria Seal</span><span class="button-arrow" aria-hidden="true">&nearr;</span></button>
+            <button class="actuator-button" type="button" data-action="abjad"><span class="button-number">03</span><span class="button-label">Extract WESZAX Spatial Coordinates</span><span class="button-arrow" aria-hidden="true">&nearr;</span></button>
+            <button class="actuator-button" type="button" data-action="manus"><span class="button-number">04</span><span class="button-label">Execute MANUS <span class="button-detail">(The Hand Actuator)</span></span><span class="button-arrow" aria-hidden="true">&nearr;</span></button>
+            <button class="actuator-button actuator-breath" type="button" data-action="breath"><span class="button-number">05</span><span class="button-label">Enter 9-Axis Breath Void <span class="button-detail">(8-8-8-8)</span></span><span class="button-arrow" aria-hidden="true">&nearr;</span></button>
+          </div>
+
+          <div class="console-frame">
+            <div class="console-topline"><span><span class="signal-dot" aria-hidden="true"></span> MATRIX CONSOLE</span><span id="console-clock">--:--:--</span></div>
+            <div id="console-output" class="console-output" role="status" aria-live="polite" aria-atomic="false">
+              <p class="console-idle"><span class="console-prompt">&gt;_</span> System idle. Standing by on the 9-Axis Spindle...</p>
+            </div>
+            <div class="console-foot"><span>OUTPUT // N-09</span><span>READY <span class="console-ready-dot" aria-hidden="true"></span></span></div>
+          </div>
+        </div>
+
+        <div id="breath-panel" class="breath-panel" hidden>
+          <div class="breath-copy">
+            <div class="section-kicker">REGULATED SEQUENCE <span>/</span> 32 SEC</div>
+            <h3>9-Axis Breath Void</h3>
+            <p>Move through each axis at your own pace. Each phase is eight seconds; stop whenever you need.</p>
+            <button id="breath-toggle" class="primary-button breath-toggle" type="button">Begin the 8-8-8-8 cycle <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="breath-instrument" id="breath-instrument">
+            <div class="breath-orb" aria-hidden="true"><span class="orb-ring orb-ring-outer"></span><span class="orb-ring orb-ring-inner"></span><span class="orb-core"></span></div>
+            <div class="breath-readout"><span id="breath-phase">SEQUENCE READY</span><strong id="breath-count">08</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="vault-grid">
+        <section class="vault-section" aria-labelledby="soundlab-heading">
+          <div class="section-heading-row vault-heading-row">
+            <div>
+              <div class="section-kicker">02 <span>/</span> SOUND ARCHIVE</div>
+              <h2 id="soundlab-heading" class="section-title">Soundlab AI Vault</h2>
+              <p class="section-caption">Personal code tracks <span>—</span> stored on this device</p>
+            </div>
+            <span class="vault-count" id="track-count">00 <span>TRACKS</span></span>
+          </div>
+
+          <form id="song-form" class="vault-form">
+            <label class="field-label" for="song-title">Track title <span>/</span> code sign</label>
+            <input id="song-title" name="title" type="text" maxlength="120" placeholder="e.g. On A M8N to MN8 The Moon..." required autocomplete="off">
+
+            <div class="field-label-row"><label class="field-label" for="song-lyrics">Scribal lyric matrix <span>/</span> max 4,999 characters</label><span class="character-count" id="lyrics-count">0 <span>/</span> 4,999</span></div>
+            <textarea id="song-lyrics" name="lyrics" maxlength="4999" placeholder="Scribe the raw frequency codes here..." aria-describedby="lyrics-count" required></textarea>
+
+            <label class="field-label" for="song-audio">Audio file asset <span class="field-optional">OPTIONAL</span></label>
+            <input id="song-audio" name="audio" class="file-input" type="file" accept="audio/*">
+            <p id="song-file-note" class="file-note">Audio stays in this browser's local archive.</p>
+
+            <button class="primary-button" type="submit">Anchor track to personal vault <span aria-hidden="true">&nearr;</span></button>
+          </form>
+
+          <div class="list-heading"><h3>Anchored tracks</h3><span>LOCAL INDEX / 02</span></div>
+          <div id="vault-song-list" class="vault-list" aria-live="polite"><p class="empty-state">No tracks anchored yet. Your archive begins with the first signal.</p></div>
+        </section>
+
+        <section class="vault-section evidence-section" aria-labelledby="evidence-heading">
+          <div class="section-heading-row vault-heading-row">
+            <div>
+              <div class="section-kicker">03 <span>/</span> SEER OBSERVATIONS</div>
+              <h2 id="evidence-heading" class="section-title">Night/Day Sovereign Seer</h2>
+              <p class="section-caption">Occurrence log <span>—</span> held on this device</p>
+            </div>
+            <span class="vault-count evidence-count" id="evidence-count">00 <span>LOGS</span></span>
+          </div>
+
+          <form id="evidence-form" class="vault-form">
+            <label class="field-label" for="evidence-time">Observation time coordinates</label>
+            <input id="evidence-time" name="time" type="text" maxlength="120" placeholder="e.g. Saturday Evening / 03:10 AM Watch..." required autocomplete="off">
+
+            <label class="field-label" for="evidence-desc">Anomalous manifestation log</label>
+            <textarea id="evidence-desc" name="description" maxlength="4000" placeholder="Describe the anomalous entities or structural shifts observed..." required></textarea>
+
+            <label class="field-label" for="evidence-media">Visual evidence <span class="field-optional">PHOTO / VIDEO · OPTIONAL</span></label>
+            <input id="evidence-media" name="media" class="file-input" type="file" accept="image/*,video/*">
+            <p id="evidence-file-note" class="file-note">Images and video remain in this browser's local archive.</p>
+
+            <button class="primary-button evidence-submit" type="submit">Log anomalous occurrence <span aria-hidden="true">&nearr;</span></button>
+          </form>
+
+          <div class="list-heading"><h3>Seer drop-box</h3><span>LOCAL INDEX / 03</span></div>
+          <div id="vault-evidence-list" class="vault-list" aria-live="polite"><p class="empty-state">No observations recorded. The field is quiet.</p></div>
+        </section>
+      </div>
+
+      <div id="storage-status" class="storage-status" role="status" aria-live="polite"><span class="status-led" aria-hidden="true"></span><span>Opening the local archive...</span><span class="status-note">YOUR FILES STAY ON THIS DEVICE</span></div>
+    </main>
+
+    <footer class="site-footer"><span>NAMIAMA <span class="footer-divider">//</span> NYNAXOS TERMINAL</span><span>PERSONAL MATRIX <span class="footer-divider">·</span> 9 AXIS</span></footer>
+  </div>
+</body>
+</html>
